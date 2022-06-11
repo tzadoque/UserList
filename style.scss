@@ -1,0 +1,154 @@
+// Utilities
+
+.text-gray-1 {
+  color: #d9d9d9;
+}
+
+.text-gray-2 {
+  color: #787878;
+}
+
+.text-gray-3 {
+  color: #4e4e4e;
+}
+
+.bg-light-1 {
+  background: #F4F4F4;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.bg-gray-1 {
+  background: #f4f4f4;
+}
+
+// Geral
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: #fbfbfb;
+}
+
+.container-fluid {
+  padding: 0 88px;
+}
+
+hr {
+  background: #F4F4F4;
+  margin: 0;
+}
+
+// Titles
+
+h1 {
+  color: #0552b5;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #4E4E4E;
+  font-size: 30px;
+  font-weight: 700; 
+}
+
+// Components
+
+#map {
+  width: 645px;
+  height: 326.47px;
+  background: url(assets/Map.png);
+  margin-right: 56px;
+  position: relative;
+}
+
+.flag-button {
+  all: unset;
+  width: 32px;
+  height: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  position: absolute;
+
+  &.active {
+    box-shadow: 0px 0px 8px #0552b5;
+  }
+
+  &.ca {
+    background: url(assets/countries/ca.png);
+    top: 46px;
+    left: 70px;
+  }
+
+  &.us {
+    background: url(assets/countries/us.png);
+    top: 94px;
+    left: 91px;
+  }
+
+  &.br {
+    background: url(assets/countries/br.png);
+    top: 209px;
+    left: 191px;
+  }
+
+  &.es {
+    background: url(assets/countries/es.png);
+    top: 56px;
+    left: 290px;
+  }
+
+  &.ir {
+    background: url(assets/countries/ir.png);
+    top: 110px;
+    left: 380px;
+  }
+
+  &.au {
+    background: url(assets/countries/au.png);
+    top: 244px;
+    left: 521px;
+  }
+}
+
+#results {
+  background: #FBFBFB;
+}
+
+.table-results {
+  padding: 24px 16px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: -80px;
+
+  .table-head {
+    padding: 10px 8px;
+  }
+
+  .user {
+    background: #f8f8f8;
+    padding: 16px 8px;
+    border-radius: 10px;
+
+    img {
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
